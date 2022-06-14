@@ -7,7 +7,7 @@
 
 - But, if the file is a broken XML or a broken SVG (as you can see in the examples), the utility tries to validate the file against its DTD and try to connect to the internet address http://W3.ORG (mostly), which can cause a wait of more the a minute for each file. 😣
 
-- A project with 15 broken SVG files can easily add 30 minutes to the build/delivery process time.
+- A project with 15 broken SVG files can easily add +20 minutes to the build/delivery process time.
 
 - Quick and dirty solution: Block http://w3.org site or IPs in the firewall of the Building Server - only need to block `port 80`
 
