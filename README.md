@@ -87,6 +87,14 @@ An SVG file seems to be harmless, but imagine someone adding a link to other sit
 
 Since `Mage.exe` is a tool to generate and edit manifests - which are also XML files, somehow its important for it to validate XMLs. But, when doing generating the hash on the files it is not suppose for it to validate them, just check the bytes.
 
+# Is W3C aware of this problem?
+
+At the W3C FAQ page there is a question related about that: 
+
+https://www.w3.org/Help/Webmaster.html#help
+
+> __Why is W3C blocking my IP?__ W3C is most likely blocking your IP because of excessive traffic; often this is due to requesting the same resource from us repeatedly (e.g. a DTD, Schema, Entity, or Namespace document.) 
+
 # References: 
 Good Files from: https://github.com/microsoft/PowerBI-Icons/blob/main/SVG/Discover.svg
 
