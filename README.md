@@ -38,6 +38,18 @@
 
 ![Bad Files took forever](img/image-bad-takes-forever.png)
 
+# What is a Good vs Bad SVG?
+
+The files in the [/examples/bad](/examples/bad) folder have a declaration of `DOCTYPE svg PUBLIC` that causes the utility `mage.exe` to access the internet. 
+
+The Process Monitor shows that `mage.exe` tries to open a DTD file named `-//W3C//DTD SVG 1.1//EN` that is not found, so it connects to the address which points to `w3.org`.
+
+![Example of Doctype in SVG file](img/svg-doctype-public.png)
+
+W3.org states that these type of declarations are valid - https://www.w3.org/QA/2002/04/valid-dtd-list.htm, so nothing really "wrong" or "bad" with the files. The problem is with the utility.
+
+![Valid SVG Declarations by W3.org](img/w3-valid-svg-optional-declarations.png)
+
 # Process Monitor helps discover the problem
 
 With the help of `Process Monitor`, part of `SysInternals Utilities` from Microsoft, it was clear that the process is communication with the internet. And it takes about 1 minute and 40 seconds to close the connection __for each__ broken file.
