@@ -13,6 +13,8 @@
 
 - ⚠ Is it a possible privacy/security issue?
 
+🇧🇷 There is also an article in Portuguese on my Linkedin - [LinkedIn William Knak](https://www.linkedin.com/pulse/um-host-muito-azarado-da-w3org-pode-estar-deixando-seu-william-knak/?trackingId=mCHI1dNIRTy5R57CH6Ro0A%3D%3D)
+
 # Steps to Reproduce
 1. In Visual Studio open the Developer Command Prompt.
 
