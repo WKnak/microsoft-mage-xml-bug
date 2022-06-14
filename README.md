@@ -95,6 +95,9 @@ https://www.w3.org/Help/Webmaster.html#help
 
 > __Why is W3C blocking my IP?__ W3C is most likely blocking your IP because of excessive traffic; often this is due to requesting the same resource from us repeatedly (e.g. a DTD, Schema, Entity, or Namespace document.) 
 
+> __The W3C servers are slow to return DTDs. Is the delay intentional?__ 
+Yes. Due to various software systems downloading DTDs from our site millions of times a day (despite the caching directives of our servers), we have started to serve DTDs and schema (DTD, XSD, ENT, MOD, etc.) from our site with an artificial delay. Our goals in doing so are to bring more attention to our ongoing issues with excessive DTD traffic, and to protect the stability and response time of the rest of our site.
+
 # References: 
 Good Files from: https://github.com/microsoft/PowerBI-Icons/blob/main/SVG/Discover.svg
 
