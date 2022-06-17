@@ -1,6 +1,6 @@
 # Mage.exe bug related to SVG - and other XML - files.
 
-## TL;DR
+## Summary
 - `Mage.exe` is a Microsoft utility for Manifest Generation and Editing, used in Signature, Deploy and Azure DevOps Pipelines, for example.
 
 - When the utility scans a directory to generate the manifest, it scans each file to anotate include the file, size and `hash` in the final Manifest file.
